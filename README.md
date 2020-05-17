@@ -1,4 +1,4 @@
-
+DB設計
 ## groups_userテーブル
 
 
