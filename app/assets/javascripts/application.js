@@ -10,6 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+<<<<<<< Updated upstream
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+=======
+>>>>>>> Stashed changes

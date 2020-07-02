@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 $(function(){ 
   function buildHTML(message){
    if ( message.image ) {
@@ -62,4 +63,22 @@ $('#new_message').on('submit', function(e){
     alert("メッセージ送信に失敗しました");
 });
 })
+=======
+$(function(){
+
+  $('#new_message').on('submit', function(e){
+    e.preventDefault();
+    var formData = new FormData(this);
+    var url = $(this).attr('action');
+    $.ajax({
+      url: url,
+      type: "POST",
+      data: formData,
+      dataType: 'json',
+      processData: false,
+      contentType: false
+    })
+  });
+
+>>>>>>> Stashed changes
 });
