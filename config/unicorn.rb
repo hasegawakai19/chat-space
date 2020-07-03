@@ -15,6 +15,8 @@ stdout_path "#{app_path}/log/unicorn.stdout.log"
 
 timeout 60
 
+listen "#{app_path}/tmp/sockets/unicorn.sock"
+
 
 preload_app true
 GC.respond_to?(:copy_on_write_friendly=) && GC.copy_on_write_friendly = true
