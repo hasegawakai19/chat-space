@@ -18,7 +18,7 @@
           = link_to edit_group_path(@group) do
             Edit
     .messages
-      = render partial: 'message', collection: @messages
+      = render partial: 'message', collection: @messages 
       
     .form
       = form_for [@group, @message] do |f|
