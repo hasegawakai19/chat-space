@@ -2,7 +2,7 @@
 lock '3.14.1'
 
 
-set :application, 'ChatSpace'
+set :application, 'chat-space'
 
 
 set :repo_url,  'git@github.com:hasegawakai19/chat-space.git'
